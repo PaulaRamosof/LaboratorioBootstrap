@@ -1,8 +1,10 @@
 body {
-  background-color: #ca96b9;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-image: url('img/flores.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #ca96b9; 
 }
-
 .custom-card {
   border-radius: 1rem;
   transition: transform 0.3s ease;
@@ -17,5 +19,9 @@ body {
   width: 115px;
   height: 120px;
   object-fit: cover;
-  border: 4px solid #92093e;
+  border: 4px solid #eb0826;
+}
+.custom-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(108, 99, 255, 0.3);
 }
